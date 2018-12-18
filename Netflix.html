@@ -12,12 +12,14 @@
 div.h {
   background-image: radial-gradient(rgba(24,8,0,0.2),rgba(24,8,0,0.8));
   width: 100%;
-  height: auto;
+  height: 857.727px;
 }
 div.h button{
   background-color: red;
   width: 416px;
   height: 120px;
+  display: block;
+  margin: auto;
 }
 div.h h1 {
   text-align: center;
@@ -31,7 +33,12 @@ div.h p {
   font-size: 30px;
   letter-spacing: 0.2px;
 }
-
+.h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.9px;
+  text-align: center;
+}
 </style>
 </head>
 
@@ -41,13 +48,13 @@ div.h p {
 <div>
   <!-- header -->
   <div class="h">
-    <img src="for-test/test_main.jpg" width="100%" height="auto">
+    <img src="for-test/test_main.jpg" alt="Netflix" width="100%" height="auto">
     <h1>언제 어디서나 자유롭게</h1>
     <p style="">다양한 디바이스에서 시청하고 부담 없이 해지하세요.</p>
     <form>
       <button>
-        <span style="color:white;text-align:center;">한 달 무료 이용 신청</span>
-        <span> ></span>
+        <span>한 달 무료 이용 신청</span>
+        <span class="chevron-right-arrow"></span>
       </button>
     </form>
   </div>
