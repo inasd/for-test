@@ -12,21 +12,38 @@
 div.m {
   width: 100%;
   position: relative;
+  height: 100vh;
   top: 0;
 }
 div.mi {
   width: 100%;
-  position:  absolute;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+}
+div.miv {
+  background-image: radial-gradient(rgba(24,8,0,0.3),rgba(24,8,0,0.4),rgba(24,8,0,0.8),rgba(24,8,0,0.95));
+  width: 100%;
+  height: inherit;
+  position: absolute;
   top: 0;
   z-index: -1;
 }
+div.miv p {
+  display: none;
+}
 
 div.h {
-  width: 100%;
-  margin: 0 3% 0 3%;
+  width: 94%;
+  min-height: 550px;
+  margin: 0 3%;
   padding-top: 80px;
 }
-div.h button.bt{
+div.ft {
+  width: auto;
+  height: 120px;
+}
+div.ft button.bt{
   background-color: red;
   width: 416px;
   height: 120px;
@@ -35,6 +52,10 @@ div.h button.bt{
   cursor: pointer;
   font-size: 30px;
   color: white;
+}
+button.bt .chevron-right-arrow {
+  background-image: url(chevron-right-whitespace.png);
+  margin-left: 15px;
 }
 div.h h1 {
   text-align: center;

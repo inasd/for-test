@@ -6,6 +6,9 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css_for_main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/v4-shims.css">
 
 <style>
 
@@ -14,58 +17,6 @@ body {
   margin: 0 0 0 0;
 }
 
-.nopam {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-}
-
-.header {
-  display: block;
-  height: 90px;
-}
-
-
-div.m {
-    width: 100%;
-}
-
-div.h {
-  width: 100%;
-  margin: 0 3% 0 3%;
-  padding-top: 80px;
-}
-div.h button.bt{
-  background-color: red;
-  width: 416px;
-  height: 120px;
-  display: block;
-  margin: auto;
-  cursor: pointer;
-  font-size: 30px;
-  color: white;
-}
-div.h h1 {
-  text-align: center;
-  color: white;
-  font-size: 80px;
-  font-weight: bold;
-  margin: 0 0 30px 0;
-  padding: 0 0 0 0;
-  display: block;
-}
-div.h p {
-  text-align: center;
-  color: white;
-  font-size: 30px;
-  letter-spacing: 0.2px;
-  margin: 0 0 30px 0;
-  padding: 0 0 0 0;
-  display: block;
-}
-button::first-child {
-  color: white;
-  font-size: 30px;
-}
 </style>
 </head>
 
@@ -75,7 +26,6 @@ button::first-child {
 <div>
 
 <div class="m">
-  <img src="https://assets.nflxext.com/ffe/siteui/vlv3/1bcf0b5a-59d5-4de5-bc64-cf22ef009321/502d4345-e0b4-4fa6-b141-769b82c9cbd6/KR-ko-20181210-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="Netflix" style="width:100%;height:100%;">
   <!-- header -->
   <div class="nopam header">
   </div>
@@ -85,12 +35,22 @@ button::first-child {
       <h1>언제 어디서나 자유롭게</h1>
       <p>다양한 디바이스에서 시청하고 부담 없이 해지하세요.</p>
     </div>
-    <form>
-      <button class="bt">
-        <span>한 달 무료 이용 신청</span>
-        <span class="chevron-right-arrow"></span>
-      </button>
-    </form>
+    <div class="ft">
+      <form>
+        <button class="bt">
+          <span>한 달 무료 이용 신청</span>
+          <span class="chevron-right-arrow"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+  <!-- div for background image -->
+  <div class="mi">
+    <img src="https://assets.nflxext.com/ffe/siteui/vlv3/1bcf0b5a-59d5-4de5-bc64-cf22ef009321/502d4345-e0b4-4fa6-b141-769b82c9cbd6/KR-ko-20181210-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="Netflix" style="width:100%;height:100%;">
+  </div>
+  <!-- div for background image gradient -->
+  <div class="miv">
+    <p>hi</p>
   </div>
 </div>
 
