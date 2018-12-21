@@ -1,0 +1,34 @@
+div.info {
+  position: relative;
+  bottom: 300px;
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+}
+div.three-bt {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: none;
+}
+div.three-bt div {
+  border: none;
+  text-align: center;
+  text-justify: justify;
+  color: rgb(119,119,119);
+  width: 33.33%;
+  height: 125px;
+  background: black;
+  font-size: 16px;
+}
+div.three-bt div:hover {
+  color: white;
+  cursor: pointer;
+}
+div.three-bt span {
+  position: relative;
+  top: 50px;
+  font-weight: 700;
+}
