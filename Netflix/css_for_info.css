@@ -5,30 +5,50 @@ div.info {
   width: 100%;
   height: 1000px;
 }
-div.three-bt {
+div.nav {
+  height: 145.455px;
+  padding-top: 15px;
+}
+div.three-bt{
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin-left: 100px;
   margin-right: 100px;
+  padding-top: 20px;
   border: none;
+  width: 80%;
+  height: 125.455px;
 }
-div.three-bt div {
-  border: none;
-  text-align: center;
-  text-justify: justify;
-  color: rgb(119,119,119);
-  width: 33.33%;
+div.thr-bt {
+  width: 100%;
   height: 125px;
-  background: black;
-  font-size: 16px;
+  box-sizing: border-box;
 }
-div.three-bt div:hover {
+div.thr-bt:hover {
   color: white;
+  fill: white;
   cursor: pointer;
 }
-div.three-bt span {
-  position: relative;
-  top: 50px;
+div.thr-bt:active {
+  border-bottom: 5px solid red;
+}
+.hr {
+  display: block;
+  border: 2px solid rgb(61,61,61);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+div.info-bt {
+  border: none;
+  text-align: center;
+  color: rgb(119,119,119);
+  width: 100%;
+  height: 21.8182px;
+  background: black;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+div.info-bt span {
   font-weight: 700;
 }
