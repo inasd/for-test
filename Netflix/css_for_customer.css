@@ -1,0 +1,70 @@
+.customer {
+  margin-top: 80px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: black;
+}
+.cus-content {
+  height: 100%;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.cus-tit {
+  margin: 0 0 30px 0;
+}
+.any-qus {
+  text-decoration: none;
+  color: rgb(153,153,153);
+  font-size: 16px;
+}
+.any-qus:hover {
+  text-decoration: underline;
+}
+.lists {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 13px;
+}
+.sel-list {
+  display: inline-block;
+  width: 24%;
+  margin-bottom: 16px;
+}
+.list-a {
+  text-decoration: none;
+  color: rgb(153,153,153);
+}
+.list-a:hover {
+  text-decoration: underline;
+}
+
+.lang-sel-bt {
+  margin-top: 20px;
+}
+.lang-sel-opt {
+  padding: 12px 26px 12px 50px;
+  background-color: black;
+  border-color: rgb(51,51,51);
+  color: rgb(153,153,153);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.lang-sel-opt option {
+  min-height: 1.2em;
+  font-size: 13px;
+}
+
+.footer-country {
+  color: rgb(153,153,153);
+  font-size: 13px;
+  margin: 24px 0 13px 0;
+}
+.copy-text {
+  color: rgb(128,128,128);
+  font-size: 12.7273px;
+  line-height: 1em;
+  margin: 20px 0;
+}

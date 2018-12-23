@@ -3,52 +3,74 @@ div.info {
   top: -60px;
   background-color: black;
   width: 100%;
-  height: 1000px;
+  height: auto;
 }
 div.nav {
   height: 145.455px;
   padding-top: 15px;
+  border-bottom: 2px solid rgb(61,61,61);
 }
 div.three-bt{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: auto;
   padding-top: 20px;
   border: none;
   width: 80%;
   height: 125.455px;
 }
-div.thr-bt {
+button.thr-bt {
+  display: block;
   width: 100%;
   height: 125px;
   box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid transparent;
+  padding: 0 1px;
+  margin-bottom: 5px;
 }
-div.thr-bt:hover {
-  color: white;
-  fill: white;
+button.thr-bt > div {
+  display: block;
+  position: relative;
+  top: -19.0915px;
+}
+button.thr-bt svg {
+  display: block;
+  margin: auto;
+}
+button.thr-bt:hover{
   cursor: pointer;
 }
-div.thr-bt:active {
+button.thr-bt:hover span{
+  color: white;
+}
+button.thr-bt:hover g{
+  fill: white;
+}
+button.thr-bt[checked] {
   border-bottom: 5px solid red;
 }
-.hr {
-  display: block;
-  border: 2px solid rgb(61,61,61);
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+button.thr-bt[checked] span{
+  color: white;
+}
+button.thr-bt[checked] g{
+  fill: white;
+}
+g.icon-fill {
+  fill: rgb(155,155,155);
+}
+button.thr-bt span {
+  color: rgb(155,155,155);
+  font-weight: 700;
 }
 div.info-bt {
   border: none;
   text-align: center;
-  color: rgb(119,119,119);
   width: 100%;
   height: 21.8182px;
   background: black;
   font-size: 16px;
   margin: 10px 0 0 0;
-}
-div.info-bt span {
-  font-weight: 700;
 }
