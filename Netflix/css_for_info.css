@@ -20,7 +20,7 @@ div.three-bt{
   width: 80%;
   height: 125.455px;
 }
-button.thr-bt {
+div.thr-bt {
   display: block;
   width: 100%;
   height: 125px;
@@ -29,39 +29,24 @@ button.thr-bt {
   border: none;
   border-bottom: 5px solid transparent;
   padding: 0 1px;
-  margin-bottom: 5px;
 }
-button.thr-bt > div {
-  display: block;
-  position: relative;
-  top: -19.0915px;
-}
-button.thr-bt svg {
+div.thr-bt svg {
   display: block;
   margin: auto;
 }
-button.thr-bt:hover{
+div.thr-bt:hover{
   cursor: pointer;
 }
-button.thr-bt:hover span{
+div.thr-bt:hover span{
   color: white;
 }
-button.thr-bt:hover g{
-  fill: white;
-}
-button.thr-bt[checked] {
-  border-bottom: 5px solid red;
-}
-button.thr-bt[checked] span{
-  color: white;
-}
-button.thr-bt[checked] g{
+div.thr-bt:hover g{
   fill: white;
 }
 g.icon-fill {
   fill: rgb(155,155,155);
 }
-button.thr-bt span {
+div.thr-bt span {
   color: rgb(155,155,155);
   font-weight: 700;
 }
@@ -73,4 +58,13 @@ div.info-bt {
   background: black;
   font-size: 16px;
   margin: 10px 0 0 0;
+}
+div.active {
+  border-bottom: 5px solid red;
+}
+div.active span{
+  color: white;
+}
+div.active g{
+  fill: white;
 }
